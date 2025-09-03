@@ -1,0 +1,15 @@
+.customButton {
+  width: 140px;
+  height: 40px;
+  border-radius: 5px; /* полукруглые края */
+  border: none;
+  cursor: pointer; /* курсор при наведении */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6d91b8; /* цвет фона, можно изменить */
+  color: #fff; /* цвет текста */
+  font-size: 20px; /* размер шрифта, чтобы поместился в кнопку */
+  padding: 0; /* убираем внутренние отступы, чтобы точно соответствовать размеру */
+  
+}
