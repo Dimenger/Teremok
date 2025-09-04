@@ -1,5 +1,11 @@
 .footer {
-    font-size: 20px;
-    text-align: center;
-    padding: 120px;
+  font-size: 20px;
+  text-align: center;
+  padding: 40px 20px; /* уменьшил padding для удобства */
+  background: linear-gradient(to bottom, #b2f2bb, #4caf50); /* светло-зеленый сверху к насыщенному зеленому снизу */
+  color: #fff; /* белый текст для контраста */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* чтобы кнопка была слева */
+  gap: 20px; /* расстояние между кнопкой и остальным содержимым */
 }
