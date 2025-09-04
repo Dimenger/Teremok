@@ -1,0 +1,13 @@
+/* Логотип по центру */
+.logoContainer {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.logo {
+  width: 350px;
+  height: auto;
+}

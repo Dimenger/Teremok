@@ -1,50 +1,30 @@
-/* header.module.css */
-
 .headerContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+  width: 100%;
+  font-size: 20px;
+  color: #12a72b;
+  /* убираем градиент отсюда, он будет только на полосе с кнопками */
 }
 
-/* Верхняя строка с тремя колонками */
 .topRow {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 1200px; /* или по вашему */
-  margin-bottom: 20px;
+  justify-content: center; /* выравнивание по центру */
+  gap: 60px; /* расстояние между колонками */
+  padding: 10px;
 }
 
-/* Колонки: телефоны и адреса */
 .column {
-  flex: 1;
-  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  /* можно задать фиксированную ширину, если нужно */
+  min-width: 150px;
 }
 
-/* Логотип по центру */
-.logoContainer {
-  flex: 0 0 auto;
+.controlPanelRow {
+  margin-top: 10px;
+  padding: 10px 0;
+  background: linear-gradient(to top, #b2f2bb, #4caf50); /* тот же градиент */
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 0 10px;
-}
-
-.logo {
-  width: 200px;
-  height: auto;
-}
-
-/* Кнопки снизу */
-.buttonsContainer {
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-  flex-wrap: wrap; /* если много кнопок, они перенесутся */
-}
-
-.link{
-  text-decoration: none;
-  color: #fff;
+  /* если нужно, можно добавить тень или бордер */
 }
