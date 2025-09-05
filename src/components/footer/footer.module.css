@@ -24,3 +24,8 @@
   /* можно задать фиксированную ширину, если нужно */
   min-width: 150px;
 }
+
+.link{
+  text-decoration: none;
+  color: #fff;
+}

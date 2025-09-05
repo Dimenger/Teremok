@@ -9,11 +9,11 @@ export const ControlPanel = () => {
   return (
     <div className={styles.buttonsContainer}>
       {BUTTONS_NAME.map(({ id, title, path }) => (
-        <Button key={id} type="button">
-          <Link className={styles.link} to={path}>
+        <Link className={styles.link} to={path}>
+          <Button key={id} type="button">
             {title}
-          </Link>
-        </Button>
+          </Button>
+        </Link>
       ))}
     </div>
   );
