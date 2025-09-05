@@ -1,5 +1,6 @@
 import { DATA_FOR_COMMUNICATION } from "../../constants";
 import vk from "../../assets/icons/vk_5968835.png";
+// import { ReactComponent as TelegramIcon } from "../../assets/icons/telegram.svg";
 import styles from "./networks.module.css";
 
 export const Networks = () => {
@@ -13,6 +14,9 @@ export const Networks = () => {
       >
         <img src={vk} alt="ВК" className={styles.vkButton} />
       </a>
+      {/* <div>
+        <TelegramIcon width={24} height={24} />
+      </div> */}
     </div>
   );
 };
