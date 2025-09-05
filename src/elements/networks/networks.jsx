@@ -1,11 +1,11 @@
 import { DATA_FOR_COMMUNICATION } from "../../constants";
 import vk from "../../assets/icons/vk_5968835.png";
-// import { ReactComponent as TelegramIcon } from "../../assets/icons/telegram.svg";
+import TelegramIcon from "../../assets/icons/telegram.svg";
 import styles from "./networks.module.css";
 
 export const Networks = () => {
   return (
-    <div>
+    <div className={styles.networksBuuton}>
       <a
         href={DATA_FOR_COMMUNICATION.vk}
         target="_blank"
@@ -14,9 +14,13 @@ export const Networks = () => {
       >
         <img src={vk} alt="ВК" className={styles.vkButton} />
       </a>
-      {/* <div>
-        <TelegramIcon width={24} height={24} />
-      </div> */}
+      <div>
+        <img
+          src={TelegramIcon}
+          alt="Телеграм"
+          className={styles.telegrmButton}
+        />
+      </div>
     </div>
   );
 };
