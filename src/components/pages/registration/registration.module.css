@@ -1,0 +1,90 @@
+.form {
+  max-width: 400px;
+  margin: 40px auto 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+}
+
+.title {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+.input,
+.select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.contacts {
+  max-width: 400px;
+  margin: 0 auto 40px;
+  padding: 15px 20px;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  background-color: #f0f8ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.contacts h3 {
+  margin-top: 0;
+  color: #007bff;
+  text-align: center;
+}
+
+.phone {
+  font-weight: 600;
+}
+
+.phone a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.phone a:hover {
+  text-decoration: underline;
+}
+
+.vkLink {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.vkLink:hover {
+  text-decoration: underline;
+}

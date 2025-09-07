@@ -1,0 +1,23 @@
+.aboutContainer {
+  max-width: 500px;          /* максимальная ширина */
+  width: 90%;                /* адаптивная ширина с отступами */
+  margin: 20px auto;         /* центрируем по горизонтали и отступ сверху/снизу */
+  padding: 20px 25px;        /* внутренние отступы */
+  
+  background-color: #fefefe; /* светлый фон */
+  border-radius: 12px;       /* скругления */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* лёгкая тень */
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

@@ -3,36 +3,40 @@ import { Header } from "./components/header/header";
 import { Footer } from "./components/footer/footer";
 import { MainPage } from "./components/pages/main-page/main-page";
 import { About } from "./components/pages/about/about";
-import "./App.css";
+import { Contacts } from "./components/pages/contacts/contacts";
+import { Areas } from "./components/pages/areas/areas";
+import { Schedule } from "./components/pages/schedule/schedule";
+import { News } from "./components/pages/news/news";
+import { Prices } from "./components/pages/prices/prices";
+import { Old13 } from "./components/pages/old13/old13";
+import { Old35 } from "./components/pages/old35/old35";
+import { Old57 } from "./components/pages/old57/old57";
+import { Registration } from "./components/pages/registration/registration";
+
+import styles from "./App.module.css";
 
 export const App = () => {
   return (
     <>
-      <Header />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <div>
-              <MainPage />
-            </div>
-          }
-        />
-        <Route
-          path="/about"
-          element={
-            <div>
-              <About />
-            </div>
-          }
-        />
-        <Route path="/schedule" element={<div>Расписание</div>} />
-        <Route path="/areas" element={<div>Направления</div>} />
-        <Route path="/news" element={<div>Новости</div>} />
-        <Route path="/prices" element={<div>Цены</div>} />
-        <Route path="/contacts" element={<div>Контакты</div>} />
-      </Routes>
-      <Footer />
+      <div className={styles.app}>
+        <Header className={styles.header} />
+        <div className={styles.main_content}>
+          <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/schedule" element={<Schedule />} />
+            <Route path="/areas" element={<Areas />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/prices" element={<Prices />} />
+            <Route path="/contacts" element={<Contacts />} />
+            <Route path="/Old13" element={<Old13 />} />
+            <Route path="/Old35" element={<Old35 />} />
+            <Route path="/Old57" element={<Old57 />} />
+            <Route path="/Registration" element={<Registration />} />
+          </Routes>
+        </div>
+        <Footer className={styles.footer} />
+      </div>
     </>
   );
 };

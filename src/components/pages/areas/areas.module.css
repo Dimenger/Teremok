@@ -1,0 +1,38 @@
+.areasContainer {
+  max-width: 500px;               /* максимальная ширина */
+  width: 90%;                     /* адаптивная ширина с отступами */
+  margin: 20px auto;              /* центрируем по горизонтали и отступ сверху/снизу */
+  padding: 20px 25px;             /* внутренние отступы */
+
+  background-color: #fefefe;      /* светлый фон */
+  border-radius: 12px;            /* скругления */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* лёгкая тень */
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+
+  text-align: center;             /* выравнивание текста по центру */
+
+  display: flex;
+  flex-direction: column;         /* колонкой */
+  justify-content: center;        /* выравнивание по вертикали */
+  align-items: center;            /* выравнивание по горизонтали */
+  gap: 10px;                      /* расстояние между карточками */
+}
+
+.areasContainer > div {
+  width: 100%;                    /* карточка растягивается на всю ширину контейнера */
+  padding: 12px 20px;             /* внутренний отступ в карточке */
+  background-color: #ffffff;      /* фон карточки */
+  border-radius: 8px;             /* скругления карточки */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* тень карточки */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
+
+.areasContainer > div:hover {
+  background-color: #e0f7fa;      /* цвет при наведении */
+  box-shadow: 0 4px 12px rgba(0, 150, 136, 0.3);
+}
