@@ -1,0 +1,36 @@
+.newsContainer {
+  max-width: 520px;
+  margin: 30px auto;
+  padding: 20px 25px;
+  background-color: #eaf4ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newsText {
+  font-size: 1.15rem;
+  color: #1a1a1a;
+  line-height: 1.5;
+}
+
+.newsText strong {
+  color: #0056b3;
+}
+
+.phone {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.phone:hover,
+.phone:focus {
+  color: #003d80;
+  text-decoration: underline;
+}
