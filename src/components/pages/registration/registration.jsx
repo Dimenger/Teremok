@@ -1,6 +1,6 @@
 import { DATA_FOR_COMMUNICATION } from "../../../constants";
 
-import styles from "./Registration.module.css";
+import styles from "./registration.module.css";
 
 export const Registration = () => {
   return (
